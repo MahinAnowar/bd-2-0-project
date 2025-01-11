@@ -9,6 +9,11 @@
 
 body {
     margin: 0px 160px;
+    background: rgb(245, 245, 245);
+}
+
+section {
+    margin-bottom: 80px;
 }
 
 nav {
@@ -49,6 +54,7 @@ nav ul li a button {
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+
 
 }
 
@@ -105,9 +111,394 @@ nav ul li a button {
     letter-spacing: 0%;
     text-align: left;
     padding: 17px 34px 17px 34px;
-    
+    border: none;
+
 }
 
-.first-section img{
-    margin-left:87px;
+.first-section img {
+    margin-left: 87px;
+}
+
+/* second section */
+
+.second-section h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+
+
+}
+
+.second-section-p1 {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 32px;
+}
+
+.second-section-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 24px;
+}
+
+.card {
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.card img {
+
+    width: 49.66px;
+    height: 53.09px;
+    left: 13.34px;
+    top: 1px;
+}
+
+.card h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.card button {
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 20px 11px 20px;
+    border: none;
+}
+
+#card-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+#card-2 {
+    background: rgb(198, 228, 214);
+}
+
+#card-3 {
+    background: rgb(247, 235, 207);
+}
+
+#card-1 button {
+    background: rgb(84, 144, 245);
+}
+
+#card-2 button {
+    background: rgb(9, 161, 92);
+}
+
+#card-3 button {
+    background: rgb(255, 194, 57);
+}
+
+.second-section-footer {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url('../assets/quote-bg.png');
+    background-repeat: no-repeat;
+    padding: 48px 24px 48px 24px;
+    background-position: 25px 41px;
+}
+
+.p-1 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.second-section-footer h4 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.p-2 {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: -25px;
+}
+
+/* news section */
+
+.news-section h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-section p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    background: rgb(255, 255, 255);
+    padding: 48px;
+    margin: 24px 0px;
+    gap: 32px;
+}
+
+.satalite-img {
+    border-radius: 24px;
+}
+
+.news-p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-cards div button {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    border: none;
+    padding: 13px 26px 13px 26px;
+}
+
+/* donate section */
+
+
+.donate-section {
+
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.donate-section h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.donate-section p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0px 24px;
+}
+
+.money-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.money-box {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin: 0px 24px;
+}
+
+#money-box-2 {
+    background: rgb(198, 228, 214);
+}
+
+.donate-section input[type="text"] {
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 90%;
+
+}
+
+.donate-section button {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+
+}
+
+/* subscribe section */
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 24px;
+    padding: 80px 100px 80px 100px;
+    gap: 24px;
+    background: rgb(198, 228, 214);
+}
+
+.subscribe h1 {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+.subscribe p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 61%;
+}
+
+.subscribe input[type="email"] {
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 18px 40px 18px 40px;
+    width: 550px;
+
+}
+
+.subscribe button {
+    padding: 17px 34px 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: absolute;
+}
+
+.subscribe label {
+    position: relative;
+    margin-left: -150px;
+}
+
+/* footer design */
+
+hr{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    width: 100%;
+}
+
+footer {
+    background-color: white;
+    margin: 0; 
+    padding: 20px 7px; 
+    width: 98vw; 
+    position: relative; 
+    left: calc(-1 * 160px); 
+}
+
+.footer {
+    padding: 0 160px; 
+    box-sizing: border-box; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 32px;
+    padding: 50px 160px 50px 160px;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 23px;
 }
