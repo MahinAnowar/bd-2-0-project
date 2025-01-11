@@ -56,9 +56,9 @@ nav ul li a button {
     border-radius: 8px;
 }
 
-nav ul li a button:hover{
+nav ul li a button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -98,7 +98,7 @@ nav ul li a button:hover{
 
 .first-section div h1 {
     color: rgb(14, 14, 14);
-    font-size: 56px;
+    font-size: 47px;
     font-weight: 700;
     line-height: 67px;
     letter-spacing: 0%;
@@ -120,9 +120,9 @@ nav ul li a button:hover{
 
 }
 
-.first-section div button:hover{
+.first-section div button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -235,23 +235,23 @@ nav ul li a button:hover{
 }
 
 
-#card-1 button:hover{
+#card-1 button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
 
-#card-2 button:hover{
+#card-2 button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
 
-#card-3 button:hover{
+#card-3 button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -353,9 +353,18 @@ nav ul li a button:hover{
     padding: 13px 26px 13px 26px;
 }
 
-.news-cards div button:hover{
+.news-cards div h2 {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.news-cards div button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -411,9 +420,9 @@ nav ul li a button:hover{
     margin: 0px 24px;
 }
 
-.money-box:hover{
+.money-box:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -422,9 +431,9 @@ nav ul li a button:hover{
     background: rgb(198, 228, 214);
 }
 
-#money-box-2:hover{
+#money-box-2:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -460,9 +469,9 @@ nav ul li a button:hover{
 
 }
 
-.donate-section button:hover{
+.donate-section button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -512,6 +521,7 @@ nav ul li a button:hover{
     text-align: left;
     padding: 18px 40px 18px 40px;
     width: 550px;
+    border: none;
 
 }
 
@@ -526,11 +536,12 @@ nav ul li a button:hover{
     letter-spacing: 0%;
     text-align: left;
     position: absolute;
+    border: none;
 }
 
-.subscribe button:hover{
+.subscribe button:hover {
     background-color: rgb(41, 24, 24);
-    color:white;
+    color: white;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -542,23 +553,23 @@ nav ul li a button:hover{
 
 /* footer design */
 
-hr{
+hr {
     border: 1px solid rgba(14, 14, 14, 0.1);
     width: 100%;
 }
 
 footer {
     background-color: white;
-    margin: 0; 
-    padding: 20px 7px; 
-    width: 98vw; 
-    position: relative; 
-    left: calc(-1 * 160px); 
+    margin: 0;
+    padding: 20px 7px;
+    width: 98vw;
+    position: relative;
+    left: calc(-1 * 160px);
 }
 
 .footer {
-    padding: 0 160px; 
-    box-sizing: border-box; 
+    padding: 0 160px;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
