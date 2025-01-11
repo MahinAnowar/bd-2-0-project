@@ -54,8 +54,13 @@ nav ul li a button {
     box-sizing: border-box;
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
+}
 
-
+nav ul li a button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 /* first section design */
@@ -113,6 +118,13 @@ nav ul li a button {
     padding: 17px 34px 17px 34px;
     border: none;
 
+}
+
+.first-section div button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .first-section img {
@@ -196,9 +208,11 @@ nav ul li a button {
     border: none;
 }
 
+
 #card-1 {
     background: rgba(84, 144, 245, 0.2);
 }
+
 
 #card-2 {
     background: rgb(198, 228, 214);
@@ -219,6 +233,29 @@ nav ul li a button {
 #card-3 button {
     background: rgb(255, 194, 57);
 }
+
+
+#card-1 button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card-2 button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#card-3 button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 
 .second-section-footer {
     box-sizing: border-box;
@@ -316,6 +353,13 @@ nav ul li a button {
     padding: 13px 26px 13px 26px;
 }
 
+.news-cards div button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 /* donate section */
 
 
@@ -367,8 +411,22 @@ nav ul li a button {
     margin: 0px 24px;
 }
 
+.money-box:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
 #money-box-2 {
     background: rgb(198, 228, 214);
+}
+
+#money-box-2:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .donate-section input[type="text"] {
@@ -400,6 +458,13 @@ nav ul li a button {
     letter-spacing: 0%;
     text-align: left;
 
+}
+
+.donate-section button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 /* subscribe section */
@@ -461,6 +526,13 @@ nav ul li a button {
     letter-spacing: 0%;
     text-align: left;
     position: absolute;
+}
+
+.subscribe button:hover{
+    background-color: rgb(41, 24, 24);
+    color:white;
+    cursor: pointer;
+    transition: 0.5s;
 }
 
 .subscribe label {
